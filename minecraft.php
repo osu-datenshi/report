@@ -14,7 +14,7 @@
       <link href="../assets/custom.css" rel="stylesheet">
    </head>
 <body>
-<nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #a4508b;background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);">
+<nav class="navbar navbar-dark navbar-expand-sm">
 <a class="navbar-brand" href="/">
     <img src="https://raw.githubusercontent.com/osu-datenshi/assets/master/logo.png" width="40" height="40" alt="logo">
   </a>
@@ -24,10 +24,10 @@
   <div class="collapse navbar-collapse" id="navbar-list-4">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="osu.php">osu!</a>
+        <a class="nav-link" href="osu.php" style="color: #ffffff !important;">osu!</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="minecraft.php">minecraft</a>
+        <a class="nav-link" href="minecraft.php" style="color: #ffffff !important;">minecraft</a>
       </li>   
     </ul>
     <?php if ( isset($_SESSION['discord']) ):?>
@@ -51,21 +51,21 @@
         <?php if ( isset($_SESSION['discord']) ):?>
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Username</label>
+                <label for="exampleFormControlInput1" style="color: #ffffff !important;">Username</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="cheater1">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Reason</label>
+                <label for="exampleFormControlSelect1" style="color: #ffffff !important;">Reason</label>
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>Multi-account</option>
                     <option>Cheating</option>
                 </select>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Evidence</label>
+                <label for="exampleFormControlTextarea1" style="color: #ffffff !important;">Evidence</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" style="background-color: #a4508b;background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);border: none;">Submit</button>
         </form>
         <?php else:?>
         <div class="alert alert-danger" role="alert">
