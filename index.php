@@ -14,7 +14,7 @@
       <link href="../assets/custom.css" rel="stylesheet">
    </head>
 <body>
-<nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #a4508b;background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);">
+<nav class="navbar navbar-dark navbar-expand-sm">
 <a class="navbar-brand" href="/">
     <img src="https://raw.githubusercontent.com/osu-datenshi/assets/master/logo.png" width="40" height="40" alt="logo">
   </a>
@@ -24,10 +24,10 @@
   <div class="collapse navbar-collapse" id="navbar-list-4">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="osu.php">osu!</a>
+        <a class="nav-link" href="osu.php" style="color: #ffffff !important;">osu!</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="minecraft.php">minecraft</a>
+        <a class="nav-link" href="minecraft.php" style="color: #ffffff !important;">minecraft</a>
       </li>   
     </ul>
     <?php if ( isset($_SESSION['discord']) ) :?>
@@ -49,7 +49,7 @@
    <section class="jumbotron text-center">
       <div class="container">
       <img src="https://raw.githubusercontent.com/osu-datenshi/assets/master/logo.png" width="250" height="250" alt="logo">
-         <h1 class="jumbotron-heading">DATENSHI REPORT SYSTEM</h1>
+         <h1 class="jumbotron-heading" style="color: #fff !important">DATENSHI REPORT SYSTEM</h1>
          <p class="lead text-muted">This reports system for people who tired open discord and can't SEE the channels, supported with osu! and minecraft.</p>
       </div>
    </section>
