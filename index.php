@@ -35,8 +35,8 @@
         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img src="https://cdn.discordapp.com/avatars/<?php echo $_SESSION['discord']['user-id'];?>/<?php echo $_SESSION['discord']['avatar-id'];?>.png" width="40" height="40" class="rounded-circle"> <?php echo $_SESSION['discord']['username'];?>
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="logout.php">Logout</a>
+        <div class="dropdown-menu" style="background-color: #a4508b;background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);color:#fff;text-align:center" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" style="background-color: #a4508b;background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);color:#fff;text-align:center" href="logout.php">Logout</a>
         </div>
       </li>
    <?php else:?>
@@ -48,7 +48,7 @@
 <main role="main">
    <section class="jumbotron text-center">
       <div class="container">
-      <img src="https://raw.githubusercontent.com/osu-datenshi/assets/master/logo.png" width="250" height="250" alt="logo">
+      <img src="https://raw.githubusercontent.com/osu-datenshi/assets/master/logo.png" class="logo" alt="logo">
          <h1 class="jumbotron-heading" style="color: #fff !important">DATENSHI REPORT SYSTEM</h1>
          <p class="lead text-muted">This reports system for people who tired open discord and can't SEE the channels, supported with osu! and minecraft.</p>
       </div>
